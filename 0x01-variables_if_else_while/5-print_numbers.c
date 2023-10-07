@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints the alphabet in upper and lower case
- * Return: always 0
+ * main - prints the alphabet in lower and upper case
+ * Return: always 0.
  */
 int main(void)
 {
@@ -11,8 +11,10 @@ int main(void)
 
 	{
 	if (letter != 'e' && letter != 'q')
-		putchar(letter);
+	putchar(letter);
 	}
+
 	putchar('\n');
+
 	return (0);
 }
