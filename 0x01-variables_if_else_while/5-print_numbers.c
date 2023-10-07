@@ -1,21 +1,13 @@
 #include <stdio.h>
 /**
-* main - program that prints the alphabet in lower and upper case
+* main - program that prints sinngle digit number of base 10 starting from 0
 * Return: always 0.
 */
-
-int main(void)
+int main() 
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-
+	for (int i = 0; i < 10; i++)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		printf("%d\n", i);
 	}
-
-	putchar('\n');
-
-	return (0);
+	return 0;
 }
