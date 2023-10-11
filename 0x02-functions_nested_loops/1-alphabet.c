@@ -2,6 +2,7 @@
 /**
  * main - print all aplhabet
  */
+
 void print_alphabet(void)
 {
 	char letter;
