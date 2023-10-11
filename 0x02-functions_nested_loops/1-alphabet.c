@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print all aplhabet
+ * print_alphabet - print all aplhabet in lowercase
  */
 
 void print_alphabet(void)
