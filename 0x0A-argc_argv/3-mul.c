@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/**		
+/**
  * _atoi - converts a string to an integer
  * @s: string to be converted
  * Return: the int converted from the string
@@ -15,7 +15,7 @@ int _atoi(char *s)
 	d = 0;
 	n = 0;
 	len = 0;
-	f = 0;	
+	f = 0;
 	digit = 0;
 	while (s[len] != '\0')
 		len++;
@@ -38,7 +38,7 @@ int _atoi(char *s)
 	}
 	if (f == 0)
 		return (0);
-	return (n);	
+	return (n);
 }
 
 /**
@@ -52,6 +52,7 @@ int _atoi(char *s)
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
+
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
@@ -61,5 +62,5 @@ int main(int argc, char *argv[])
 	num2 = _atoi(argv[2]);
 	result = num1 * num2;
 	printf("%d\n", result);
-	return (0);	
+	return (0);
 }
